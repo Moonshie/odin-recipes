@@ -57,3 +57,36 @@ h1 {
 .container .button-uk {
     right: 0px;
 }
+
+.recipe-header {
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.recipe-header img {
+    width: 500px;
+}
+.recipe-header .description {
+    max-width: 300px;
+}
+.mainblock {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.mainblock h2 {
+    text-align: center;
+}
+.mainblock .steps ol {
+    max-width: 400px;
+}
+.mainblock .steps ol li {
+    margin-bottom: 10px;
+}
+
+.footer {
+    margin-top: 48px;
+    text-align: center;
+}
