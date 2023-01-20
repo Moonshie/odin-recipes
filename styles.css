@@ -31,15 +31,21 @@ h1 {
 .container .button-uk {
     position: absolute;
     top: 96%;
-    width: 51%;
+    width: 50%;
     font-size: 20px;
     background-color: #fbe8a6;
-    border: 3px solid #303c6c;
+    border: 2px solid #303c6c;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     font-family: Georgia, 'Times New Roman', serif;
     font-weight: bold;
+}
+.container .button-en {
+    border-right: 1px solid #303c6c;
+}
+.container .button-uk {
+    border-left: 1px solid #303c6c;
 }
 .container .button-en:hover,
 .container .button-uk:hover {
